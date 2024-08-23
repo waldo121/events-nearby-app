@@ -1,10 +1,9 @@
 package main
 
 import (
-	"fmt"
-	"github.com/waldo121/events-nearby-app/clients"
+	"github.com/waldo121/events-nearby-app/cmd"
 )
 
 func main() {
-	fmt.Println(clients.GetEvents(1))
+	cmd.Execute()
 }
